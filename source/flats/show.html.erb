@@ -1,0 +1,27 @@
+  <%= partial "layouts/small-banner" %>
+<div class="header-flat">
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-sm-6 col-sm-offset-1">
+        <div class="header-flat-details">
+          <div class="header-flat-owner  text-center">
+            <% flat = data.flats[owner] %>
+            <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{owner}", width: "80px", class: "img-circle" %>
+            <p><%= flat.name %></p>
+          </div>
+          <div class="header-flat-name">
+            <h3><%= flat.description %></h3>
+            <p><%= flat.city_name %></p>
+            <p class="rating">
+                <i class="fa fa-star" style="color: #ffb400"></i>
+                <i class="fa fa-star" style="color: #ffb400"></i>
+                <i class="fa fa-star" style="color: #ffb400"></i>
+                <i class="fa fa-star" style="color: #ffb400"></i>
+                <i class="fa fa-star" style="color: #ffb400"></i>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

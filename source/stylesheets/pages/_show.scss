@@ -1,0 +1,28 @@
+.header-flat {
+  border: 1px solid $light-gray;
+  background-color: white;
+}
+
+.header-flat-details {
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    padding-left: 0;
+}
+
+.header-flat-owner {
+    padding: 20px;
+}
+
+
+.header-flat {
+  h3 {
+    font-size: 18px;
+    font-weight: bolder;
+    color: black;
+  }
+  p {
+    font-size: 14px;
+    color: $gray;
+  }
+}
